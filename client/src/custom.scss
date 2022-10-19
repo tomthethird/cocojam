@@ -1,0 +1,30 @@
+// Variable overrides first
+
+$primary: #FF8316;
+$secondary: #4A9518;
+$info: #a0a0a0;
+$danger: #FC175D;
+$warning: #FFC400;
+$success: #20c997;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "info": $info,
+    "danger": $danger,
+    "warning": $warning,
+    "success": $success
+);
+
+$custom-colors: (
+    "primary-light": #FFAA00,
+    "secondary-wash": #E7FFCB,
+    "highlight": #F7FF03,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$btn-border-width: 0.2rem;
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
