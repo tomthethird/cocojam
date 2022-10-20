@@ -1,6 +1,7 @@
 import express from "express"
 import cors from "cors"
 import apiRoute from "./api/bestsellers.js"
+
 const PORT = process.env.PORT || 8000;
 
 const app = express()

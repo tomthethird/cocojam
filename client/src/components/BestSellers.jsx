@@ -5,7 +5,7 @@ const BestSellers = () => {
 
     const getProducts = async () => {
         try {
-            const response = await fetch(`https://api.jsonbin.io/v3/qs/6350a7ab0e6a79321e2e34ac`, {
+            const response = await fetch(`https://api.jsonbin.io/v3/qs/6350a7ab0e6a79321e2e34ac/`, {
                 method: 'GET',
                 headers: { 'accept': 'application/json' }
             });
