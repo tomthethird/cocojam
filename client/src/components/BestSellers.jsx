@@ -5,9 +5,9 @@ const BestSellers = () => {
 
     const getProducts = async () => {
         try {
-            const response = await fetch(`https://api.jsonbin.io/v3/qs/6350a7ab0e6a79321e2e34ac/`, {
+            const response = await fetch(`https://raw.githubusercontent.com/tomthethird/cocojam/main/server/api/bestsellers.json`, {
                 method: 'GET',
-                headers: { 'accept': 'application/json' }
+                headers: { 'accept': 'application/json'}
             });
             const parseData = await response.json();
             console.log(parseData)
