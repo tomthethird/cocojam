@@ -127,3 +127,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.sale {
+  position: relative;
+  right: -65%;
+}

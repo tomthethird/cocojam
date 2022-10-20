@@ -2,33 +2,33 @@
   {
     "product": "Coco Jam 370g",
     "brand": "Lily's",
-    "sale": "true",
-    "price": "200.00",
-    "discountPrice": "124.00",
-    "photo": "photo01"
+    "sale": true,
+    "price": 200.00,
+    "discountPrice": 124.00,
+    "photo": "https://raw.githubusercontent.com/tomthethird/cocojam/main/client/src/assets/cocojam-1.jpg"
   },
   {
-    "product": "Coco Jam 370g",
-    "brand": "Lily's",
-    "sale": "true",
-    "price": "200",
-    "discountPrice": "124",
-    "photo": "require('../assets/cocojam-2.jpg')"
+    "product": "Coco Jam 500g",
+    "brand": "Nanay Pacing",
+    "sale": false,
+    "price": 940.00,
+    "discountPrice": 0,
+    "photo": "https://raw.githubusercontent.com/tomthethird/cocojam/main/client/src/assets/cocojam-2.jpg"
   },
   {
-    "product": "Coco Jam 370g",
-    "brand": "Lily's",
-    "sale": "true",
-    "price": "200",
-    "discountPrice": "124",
-    "photo": "require('../assets/cocojam-3.jpg')"
+    "product": "Coconut Jam with Muscovado 330g",
+    "brand": "Quezon's Best",
+    "sale": false,
+    "price": 145.00,
+    "discountPrice": 0,
+    "photo": "https://raw.githubusercontent.com/tomthethird/cocojam/main/client/src/assets/cocojam-3.jpg"
   },
   {
-    "product": "Coco Jam 370g",
-    "brand": "Lily's",
-    "sale": "true",
-    "price": "200",
-    "discountPrice": "124",
-    "photo": "require('../assets/cocojam-4.jpg')"
+    "product": "Coconut Jam with Mango 330g",
+    "brand": "Buko Life Organic",
+    "sale": true,
+    "price": 600.00,
+    "discountPrice": 559.00,
+    "photo": "https://raw.githubusercontent.com/tomthethird/cocojam/main/client/src/assets/cocojam-4.jpg"
   }
 ]
